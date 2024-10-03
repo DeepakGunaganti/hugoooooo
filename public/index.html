@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.134.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=51777&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.134.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Krmln</title>
@@ -19,6 +19,9 @@
   <header>
     <nav>
       <h1 class="hed">KREMLIN</h1>
+      <button class="hamburger" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+    </button>
       <ul class="menu">
         <li><a href="#slider-cont">Home</a></li>
         <li><a href="#about-cont">About</a></li>
@@ -27,6 +30,8 @@
       </ul>
     </nav>
   </header>
+
+   
 
 
   <div class="slider-container" id="slider-cont" style="margin-top: 4%; overflow: hidden; scroll-behavior: smooth;">
@@ -353,10 +358,18 @@ function updateCarousel() {
 }
 
 
+
+
+
+
   </script>
 
 
-
+<script>
+  document.querySelector('.hamburger').addEventListener('click', function() {
+      document.querySelector('.menu').classList.toggle('active');
+  });
+</script>
 
 
 </body>

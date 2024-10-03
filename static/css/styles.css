@@ -1,21 +1,18 @@
-
-
-
-
- body {
+body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: #ffffff;
 
 }
+
 html {
   scroll-behavior: smooth;
 }
 
-nav{
-    
-  background-color: rgb(11, 7, 62); 
+nav {
+
+  background-color: rgb(11, 7, 62);
   margin: 0;
   top: 0%;
   display: flex;
@@ -24,6 +21,7 @@ nav{
   width: 100%;
   z-index: 2000;
 }
+
 header nav ul.menu {
   display: flex;
   list-style: none;
@@ -34,20 +32,21 @@ header nav ul.menu li a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-} 
+}
+
 .card1-container {
   display: flex;
   gap: 20px;
 }
 
-.card1{
+.card1 {
   background-color: rgb(196, 255, 255);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   flex: 1;
   color: black;
-   height: 100%;
+  height: 100%;
 }
 
 .card1 h2 {
@@ -71,11 +70,12 @@ header nav ul.menu li a {
   text-decoration: underline;
 }
 
-.feature-text{
-   margin-left: 65px;
-   width: 70%;
-   text-align: start;
+.feature-text {
+  margin-left: 65px;
+  width: 70%;
+  text-align: start;
 }
+
 .hero-content {
   max-width: 600px;
   margin-top: 5%;
@@ -119,8 +119,8 @@ footer {
 
 
 #services {
-   background-color: whitesmoke !important;
-  margin: 0%; 
+  background-color: whitesmoke !important;
+  margin: 0%;
   padding: 60px 0;
   scroll-margin-top: 77px;
   overflow: clip;
@@ -170,7 +170,7 @@ footer {
 
 .contact-section {
   padding: 50px 0;
-  background-color: rgb(6, 2, 64)!important;
+  background-color: rgb(6, 2, 64) !important;
 
 }
 
@@ -208,8 +208,8 @@ footer {
   color: #f97300;
   margin-right: 15px;
 
-  background: 
-color-mix(in srgb, #f97300, transparent 92%);
+  background:
+    color-mix(in srgb, #f97300, transparent 92%);
   font-size: 20px;
   width: 44px;
   height: 44px;
@@ -243,7 +243,8 @@ color-mix(in srgb, #f97300, transparent 92%);
   height: 400px;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   width: 100%;
   padding: 15px;
   /* border-radius: 5px; */
@@ -252,7 +253,8 @@ color-mix(in srgb, #f97300, transparent 92%);
   color: #333;
 }
 
-.contact-form input:focus, .contact-form textarea:focus {
+.contact-form input:focus,
+.contact-form textarea:focus {
   border-color: #f97300;
   outline: none;
 }
@@ -277,7 +279,8 @@ color-mix(in srgb, #f97300, transparent 92%);
 
 
 
-.about-section, .services-section {
+.about-section,
+.services-section {
   padding: 50px;
   max-width: 1200px;
   margin-top: 2%;
@@ -291,7 +294,8 @@ color-mix(in srgb, #f97300, transparent 92%);
   align-items: flex-start;
 }
 
-.left-column, .right-column {
+.left-column,
+.right-column {
   width: 45%;
   color: black;
 }
@@ -336,31 +340,34 @@ ul li {
   color: #ff5722;
   margin-bottom: 10px;
 }
-.line{
+
+.line {
   height: 1px;
   width: 180px;
   background-color: #ff6700;
   margin-left: 2%;
   margin-top: 28px;
 }
-.line-cont{
+
+.line-cont {
   display: flex;
 
 }
-.section-title1{
-      font-size: 14px;
-      font-weight: 500;
-      padding: 0;
-      line-height: 1px;
-      margin: 0;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      color: black;
-      position: relative;
-      margin-top: 28px;
-  }
 
-.p-tag{
+.section-title1 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: black;
+  position: relative;
+  margin-top: 28px;
+}
+
+.p-tag {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
@@ -387,7 +394,7 @@ ul li {
 
 .feature-item.feature-active {
 
-  color: white!important;
+  color: white !important;
 }
 
 .feature-icon {
@@ -463,8 +470,8 @@ ul li {
 }
 
 .swiper {
-width: 200px;
-height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 /* 
@@ -487,34 +494,35 @@ background-image: url('https://bootstrapmade.com/content/demo/Bootslander/assets
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
-  background-color: rgb(6, 2, 51); 
-  background-blend-mode: overlay; /* Blends the blue color with the background image */
+
+  background-color: rgb(6, 2, 51);
+  background-blend-mode: overlay;
+  /* Blends the blue color with the background image */
 }
 
 
 .slider {
-position: relative;
-width: 100%;
-display: flex;
-transition: transform 0.5s ease;
+  position: relative;
+  width: 100%;
+  display: flex;
+  transition: transform 0.5s ease;
 }
 
 .slide {
-min-width: 100%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-text-align: center;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 h2 {
-font-size: 36px;
-font-weight: 700;
+  font-size: 36px;
+  font-weight: 700;
 }
 
-button {
+/* button {
 padding: 10px 20px;
 background-color: #FF5722;
 border: none;
@@ -522,101 +530,235 @@ color: white;
 font-size: 16px;
 cursor: pointer;
 transition: background-color 0.3s;
-}
+} */
 
-button:hover {
+/* button:hover {
 background-color: #E64A19;
-}
+} */
 
 .navigation {
-position: absolute;
-top: 50%;
-width: 100%;
-display: flex;
-justify-content: space-between;
-transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
 }
 
 .navigation button {
-background: none;
-border: none;
-font-size: 24px;
-color: white;
-cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
 }
 
 .wave-container {
-position: absolute;
-bottom: 0;
-width: 100%;
-height: 150px;
-overflow: hidden;
-border:#ddd
-
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  border: #ddd
 }
 
 .waves {
-position: relative;
-width: 100%;
-height: 100%;
-bottom: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
 }
 
 .wave use {
-animation: wave 10s infinite linear;
-background-color: whitesmoke;
+  animation: wave 10s infinite linear;
+  background-color: whitesmoke;
 }
 
 @keyframes wave {
-from {
-  transform: translate3d(-90px, 0, 0);
-}
-to {
-  transform: translate3d(85px, 0, 0);
-}
+  from {
+    transform: translate3d(-90px, 0, 0);
+  }
+
+  to {
+    transform: translate3d(85px, 0, 0);
+  }
 }
 
 .card-container {
-width: 100%;
-overflow: hidden;
-position: relative;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .card-wrapper {
-display: flex;
-gap: 10px;
-transition: transform 0.5s ease-in-out;
+  display: flex;
+  gap: 10px;
+  transition: transform 0.5s ease-in-out;
 }
 
 .card1 {
-min-width: 33.33%; /* Show 3 cards at a time */
-box-sizing: border-box;
-padding: 20px;
+  min-width: 33.33%;
+  /* Show 3 cards at a time */
+  box-sizing: border-box;
+  padding: 20px;
 }
+
 /* .about-section {
 background-color: #20c997;
 } */
 
 .navi button {
-position: absolute;
-top: 50%;
-transform: translateY(-50%);
-/* background-color: #007BFF; */
-/* color: white; */
-border: none;
-padding: 10px 20px;
-cursor: pointer;
-background: none;
-border: none;
-font-size: 24px;
-color: white;
-cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  /* background-color: #007BFF; */
+  /* color: white; */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
 }
 
 #prevBtn {
-left: 0;
+  left: 0;
 }
 
 #nextBtn {
-right: 0;
+  right: 0;
+}
+
+.hamburger {
+  font-size: 40px;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none !important;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    top: 60px;
+    padding: 10px;
+    /* left: 0; */
+    z-index: 1;
+  }
+
+  .menu li a {
+    color: black;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .menu.active {
+    display: flex !important;
+  }
+
+  header nav ul.menu li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul.menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+
+  .slider-container {
+    width: 107%;
+    max-width: 150%;
+  }
+
+  #services {
+    width: 107%;
+    max-width: 110%;
+  }
+
+  .services-grid {
+    height: 100%;
+  }
+
+  .contact-section {
+    max-width: 110%;
+    width: 107%;
+  }
+
+  .section-title1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-form input {
+    width: 91%;
+  }
+
+  .contact-form textarea {
+    resize: none;
+    width: auto;
+  }
+  .content-section {
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.content-left{
+  margin-top: 40px;
+}
+}
+
+@media (max-width: 426px) {
+  .slider-container {
+    width: 265%;
+    max-width: 266%;
+}
+
+  .hero-content {
+    max-width: 600px;
+    margin-top: 15%;
+  }
+
+  .about-section,
+  .services-section {
+    max-width: 1291px;
+    width: 192%;
+  }
+  .content-section {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 228%;
+}
+#services {
+  width: 107%;
+  max-width: 110%;
+  margin-left: 244px;
+}
+.feature-container {
+  width: 216%;
+  gap: 2%;
+}
+.content-left{
+  margin-top: 40px;
+}
+.contact-section {
+  margin-top: 50%;
+  max-width: 269%;
+        width: 267%;
+}
+.contact-container{
+  gap: 150px;
+}
+.contact-form input {
+  width: 94%;
+}
 }

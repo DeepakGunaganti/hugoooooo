@@ -18,6 +18,9 @@
   <header>
     <nav>
       <h1 class="hed">KREMLIN</h1>
+      <button class="hamburger" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+    </button>
       <ul class="menu">
         <li><a href="#slider-cont">Home</a></li>
         <li><a href="#about-cont">About</a></li>
@@ -26,6 +29,23 @@
       </ul>
     </nav>
   </header>
+
+   <!-- <header></header>
+    <nav>
+        <h1 class="hed">KREMLIN</h1>
+        <button class="hamburger" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <ul class="menu">
+            <li><a href="#slider-cont">Home</a></li>
+            <li><a href="#about-cont">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header> -->
 
 
   <div class="slider-container" id="slider-cont" style="margin-top: 4%; overflow: hidden; scroll-behavior: smooth;">
@@ -380,10 +400,18 @@ function updateCarousel() {
 }
 
 
+
+
+
+
   </script>
 
 
-
+<script>
+  document.querySelector('.hamburger').addEventListener('click', function() {
+      document.querySelector('.menu').classList.toggle('active');
+  });
+</script>
 
 
 </body>
